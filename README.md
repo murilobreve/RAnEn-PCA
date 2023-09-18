@@ -18,6 +18,19 @@ Before executing the script, ensure that:
 2. Desired parameters are verified. Again, look in the `/R/settings/` directory.
 3. Run the function `AnEn_methods.R`.
 
+## Results
+
+On successful execution, the script will return predictions based on the provided data and also compare the predicted values to real values, giving a measure of error.
+
+## Additional Notes
+
+The main function is the primary concern, and other secondary functions are utilized to support its operation but aren't described in detail here.
+
+For more details, reach out to:
+**Murilo Montanini Breve**
+📧 [murilobreve@alunos.utfpr.edu.br](mailto:murilobreve@alunos.utfpr.edu.br)
+📅 Last modification: 11/11/2022
+
 ## Usage
 
 To use the main function, `AnEnMethods`, the following parameters are required:
@@ -39,17 +52,3 @@ AnEnMethods(
   avail_threshold = 0.85
 )
 
-## Results
-
-On successful execution, the script will return predictions based on the provided data and also compare the predicted values to real values, giving a measure of error.
-
-## Additional Notes
-
-The main function is the primary concern, and other secondary functions are utilized to support its operation but aren't described in detail here.
-
----
-
-For more details, reach out to:
-**Murilo Montanini Breve**
-📧 [murilobreve@alunos.utfpr.edu.br](mailto:murilobreve@alunos.utfpr.edu.br)
-📅 Last modification: 11/11/2022
